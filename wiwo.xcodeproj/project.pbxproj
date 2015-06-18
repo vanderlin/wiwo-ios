@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA43F7771B30AF140057832F /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43F7751B30AF140057832F /* UserLoginViewController.m */; };
+		BA43F77B1B30BA760057832F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43F77A1B30BA760057832F /* RootViewController.m */; };
+		BA43F7B01B3353FC0057832F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43F7AF1B3353FC0057832F /* ProfileViewController.m */; };
+		BA43F7B31B3355C50057832F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = BA43F7B21B3355C50057832F /* fonts */; };
+		BA717D9E1B2F646600CB92FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA717D9D1B2F646600CB92FF /* main.m */; };
+		BA717DA11B2F646600CB92FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA717DA01B2F646600CB92FF /* AppDelegate.m */; };
+		BA717DAA1B2F646600CB92FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA717DA81B2F646600CB92FF /* Main.storyboard */; };
+		BA717DAC1B2F646600CB92FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA717DAB1B2F646600CB92FF /* Images.xcassets */; };
+		BA717DAF1B2F646600CB92FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA717DAD1B2F646600CB92FF /* LaunchScreen.xib */; };
+		BA717DBB1B2F646600CB92FF /* wiwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA717DBA1B2F646600CB92FF /* wiwoTests.m */; };
+		BA717DC51B2F65DD00CB92FF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DC41B2F65DD00CB92FF /* AddressBook.framework */; };
+		BA717DC71B2F65E500CB92FF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DC61B2F65E500CB92FF /* AssetsLibrary.framework */; };
+		BA717DC91B2F65EC00CB92FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DC81B2F65EC00CB92FF /* Foundation.framework */; };
+		BA717DCB1B2F65F800CB92FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DCA1B2F65F800CB92FF /* CoreLocation.framework */; };
+		BA717DCD1B2F65FE00CB92FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DCC1B2F65FE00CB92FF /* CoreMotion.framework */; };
+		BA717DCF1B2F660600CB92FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DCE1B2F660600CB92FF /* CoreGraphics.framework */; };
+		BA717DD11B2F660C00CB92FF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DD01B2F660C00CB92FF /* CoreText.framework */; };
+		BA717DD31B2F661400CB92FF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DD21B2F661400CB92FF /* MediaPlayer.framework */; };
+		BA717DD51B2F661A00CB92FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DD41B2F661A00CB92FF /* Security.framework */; };
+		BA717DD71B2F662500CB92FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DD61B2F662500CB92FF /* SystemConfiguration.framework */; };
+		BA717DD91B2F66E000CB92FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DD81B2F66E000CB92FF /* UIKit.framework */; };
+		BA717DE11B2F674E00CB92FF /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DDF1B2F674E00CB92FF /* GoogleOpenSource.framework */; };
+		BA717DE21B2F674E00CB92FF /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA717DE01B2F674E00CB92FF /* GooglePlus.framework */; };
+		BA717DE41B2F686800CB92FF /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA717DE31B2F686800CB92FF /* GooglePlus.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA717DB51B2F646600CB92FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA717D901B2F646600CB92FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA717D971B2F646600CB92FF;
+			remoteInfo = wiwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA43F7741B30AF140057832F /* UserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginViewController.h; sourceTree = "<group>"; };
+		BA43F7751B30AF140057832F /* UserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginViewController.m; sourceTree = "<group>"; };
+		BA43F7791B30BA760057832F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BA43F77A1B30BA760057832F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BA43F7AE1B3353FC0057832F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		BA43F7AF1B3353FC0057832F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		BA43F7B21B3355C50057832F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = assets/fonts; sourceTree = "<group>"; };
+		BA717D981B2F646600CB92FF /* wiwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wiwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA717D9C1B2F646600CB92FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA717D9D1B2F646600CB92FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA717D9F1B2F646600CB92FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA717DA01B2F646600CB92FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA717DA91B2F646600CB92FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA717DAB1B2F646600CB92FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA717DAE1B2F646600CB92FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA717DB41B2F646600CB92FF /* wiwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA717DB91B2F646600CB92FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA717DBA1B2F646600CB92FF /* wiwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wiwoTests.m; sourceTree = "<group>"; };
+		BA717DC41B2F65DD00CB92FF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BA717DC61B2F65E500CB92FF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BA717DC81B2F65EC00CB92FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA717DCA1B2F65F800CB92FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA717DCC1B2F65FE00CB92FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BA717DCE1B2F660600CB92FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA717DD01B2F660C00CB92FF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BA717DD21B2F661400CB92FF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BA717DD41B2F661A00CB92FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA717DD61B2F662500CB92FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BA717DD81B2F66E000CB92FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA717DDF1B2F674E00CB92FF /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "wiwo/google-plus-ios-sdk-1.7.1/GoogleOpenSource.framework"; sourceTree = "<group>"; };
+		BA717DE01B2F674E00CB92FF /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "wiwo/google-plus-ios-sdk-1.7.1/GooglePlus.framework"; sourceTree = "<group>"; };
+		BA717DE31B2F686800CB92FF /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "wiwo/google-plus-ios-sdk-1.7.1/GooglePlus.bundle"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA717D951B2F646600CB92FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA717DD91B2F66E000CB92FF /* UIKit.framework in Frameworks */,
+				BA717DD71B2F662500CB92FF /* SystemConfiguration.framework in Frameworks */,
+				BA717DD51B2F661A00CB92FF /* Security.framework in Frameworks */,
+				BA717DD31B2F661400CB92FF /* MediaPlayer.framework in Frameworks */,
+				BA717DD11B2F660C00CB92FF /* CoreText.framework in Frameworks */,
+				BA717DCF1B2F660600CB92FF /* CoreGraphics.framework in Frameworks */,
+				BA717DCD1B2F65FE00CB92FF /* CoreMotion.framework in Frameworks */,
+				BA717DCB1B2F65F800CB92FF /* CoreLocation.framework in Frameworks */,
+				BA717DC91B2F65EC00CB92FF /* Foundation.framework in Frameworks */,
+				BA717DC71B2F65E500CB92FF /* AssetsLibrary.framework in Frameworks */,
+				BA717DC51B2F65DD00CB92FF /* AddressBook.framework in Frameworks */,
+				BA717DE11B2F674E00CB92FF /* GoogleOpenSource.framework in Frameworks */,
+				BA717DE21B2F674E00CB92FF /* GooglePlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA717DB11B2F646600CB92FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA43F7721B30AD6F0057832F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA43F7B11B3353FF0057832F /* Profile */,
+				BA43F7731B30AEF30057832F /* Login */,
+				BA43F7791B30BA760057832F /* RootViewController.h */,
+				BA43F77A1B30BA760057832F /* RootViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BA43F7731B30AEF30057832F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA43F7741B30AF140057832F /* UserLoginViewController.h */,
+				BA43F7751B30AF140057832F /* UserLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BA43F7B11B3353FF0057832F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BA43F7AE1B3353FC0057832F /* ProfileViewController.h */,
+				BA43F7AF1B3353FC0057832F /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		BA717D8F1B2F646600CB92FF = {
+			isa = PBXGroup;
+			children = (
+				BA717DDE1B2F671200CB92FF /* Libraries */,
+				BA717D9A1B2F646600CB92FF /* wiwo */,
+				BA717DB71B2F646600CB92FF /* wiwoTests */,
+				BA717D991B2F646600CB92FF /* Products */,
+				BA717DE31B2F686800CB92FF /* GooglePlus.bundle */,
+			);
+			sourceTree = "<group>";
+		};
+		BA717D991B2F646600CB92FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA717D981B2F646600CB92FF /* wiwo.app */,
+				BA717DB41B2F646600CB92FF /* wiwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA717D9A1B2F646600CB92FF /* wiwo */ = {
+			isa = PBXGroup;
+			children = (
+				BA43F7721B30AD6F0057832F /* ViewControllers */,
+				BA717D9F1B2F646600CB92FF /* AppDelegate.h */,
+				BA717DA01B2F646600CB92FF /* AppDelegate.m */,
+				BA717DA81B2F646600CB92FF /* Main.storyboard */,
+				BA717DAB1B2F646600CB92FF /* Images.xcassets */,
+				BA43F7B21B3355C50057832F /* fonts */,
+				BA717DAD1B2F646600CB92FF /* LaunchScreen.xib */,
+				BA717D9B1B2F646600CB92FF /* Supporting Files */,
+			);
+			path = wiwo;
+			sourceTree = "<group>";
+		};
+		BA717D9B1B2F646600CB92FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA717D9C1B2F646600CB92FF /* Info.plist */,
+				BA717D9D1B2F646600CB92FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA717DB71B2F646600CB92FF /* wiwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA717DBA1B2F646600CB92FF /* wiwoTests.m */,
+				BA717DB81B2F646600CB92FF /* Supporting Files */,
+			);
+			path = wiwoTests;
+			sourceTree = "<group>";
+		};
+		BA717DB81B2F646600CB92FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA717DB91B2F646600CB92FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA717DDE1B2F671200CB92FF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BA717DDF1B2F674E00CB92FF /* GoogleOpenSource.framework */,
+				BA717DE01B2F674E00CB92FF /* GooglePlus.framework */,
+				BA717DD81B2F66E000CB92FF /* UIKit.framework */,
+				BA717DD61B2F662500CB92FF /* SystemConfiguration.framework */,
+				BA717DD41B2F661A00CB92FF /* Security.framework */,
+				BA717DD21B2F661400CB92FF /* MediaPlayer.framework */,
+				BA717DD01B2F660C00CB92FF /* CoreText.framework */,
+				BA717DCE1B2F660600CB92FF /* CoreGraphics.framework */,
+				BA717DCC1B2F65FE00CB92FF /* CoreMotion.framework */,
+				BA717DCA1B2F65F800CB92FF /* CoreLocation.framework */,
+				BA717DC81B2F65EC00CB92FF /* Foundation.framework */,
+				BA717DC61B2F65E500CB92FF /* AssetsLibrary.framework */,
+				BA717DC41B2F65DD00CB92FF /* AddressBook.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA717D971B2F646600CB92FF /* wiwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA717DBE1B2F646600CB92FF /* Build configuration list for PBXNativeTarget "wiwo" */;
+			buildPhases = (
+				BA717D941B2F646600CB92FF /* Sources */,
+				BA717D951B2F646600CB92FF /* Frameworks */,
+				BA717D961B2F646600CB92FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wiwo;
+			productName = wiwo;
+			productReference = BA717D981B2F646600CB92FF /* wiwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA717DB31B2F646600CB92FF /* wiwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA717DC11B2F646600CB92FF /* Build configuration list for PBXNativeTarget "wiwoTests" */;
+			buildPhases = (
+				BA717DB01B2F646600CB92FF /* Sources */,
+				BA717DB11B2F646600CB92FF /* Frameworks */,
+				BA717DB21B2F646600CB92FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA717DB61B2F646600CB92FF /* PBXTargetDependency */,
+			);
+			name = wiwoTests;
+			productName = wiwoTests;
+			productReference = BA717DB41B2F646600CB92FF /* wiwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA717D901B2F646600CB92FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wishiwasoutside.com;
+				TargetAttributes = {
+					BA717D971B2F646600CB92FF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BA717DB31B2F646600CB92FF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BA717D971B2F646600CB92FF;
+					};
+				};
+			};
+			buildConfigurationList = BA717D931B2F646600CB92FF /* Build configuration list for PBXProject "wiwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA717D8F1B2F646600CB92FF;
+			productRefGroup = BA717D991B2F646600CB92FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA717D971B2F646600CB92FF /* wiwo */,
+				BA717DB31B2F646600CB92FF /* wiwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA717D961B2F646600CB92FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA717DE41B2F686800CB92FF /* GooglePlus.bundle in Resources */,
+				BA43F7B31B3355C50057832F /* fonts in Resources */,
+				BA717DAA1B2F646600CB92FF /* Main.storyboard in Resources */,
+				BA717DAF1B2F646600CB92FF /* LaunchScreen.xib in Resources */,
+				BA717DAC1B2F646600CB92FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA717DB21B2F646600CB92FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA717D941B2F646600CB92FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA43F7771B30AF140057832F /* UserLoginViewController.m in Sources */,
+				BA43F77B1B30BA760057832F /* RootViewController.m in Sources */,
+				BA717DA11B2F646600CB92FF /* AppDelegate.m in Sources */,
+				BA717D9E1B2F646600CB92FF /* main.m in Sources */,
+				BA43F7B01B3353FC0057832F /* ProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA717DB01B2F646600CB92FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA717DBB1B2F646600CB92FF /* wiwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA717DB61B2F646600CB92FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA717D971B2F646600CB92FF /* wiwo */;
+			targetProxy = BA717DB51B2F646600CB92FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA717DA81B2F646600CB92FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA717DA91B2F646600CB92FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA717DAD1B2F646600CB92FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA717DAE1B2F646600CB92FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA717DBC1B2F646600CB92FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA717DBD1B2F646600CB92FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA717DBF1B2F646600CB92FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tvanderlin/Downloads/google-plus-ios-sdk-1.7.1",
+					"$(PROJECT_DIR)/wiwo/google-plus-ios-sdk-1.7.1",
+				);
+				INFOPLIST_FILE = wiwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA717DC01B2F646600CB92FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tvanderlin/Downloads/google-plus-ios-sdk-1.7.1",
+					"$(PROJECT_DIR)/wiwo/google-plus-ios-sdk-1.7.1",
+				);
+				INFOPLIST_FILE = wiwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA717DC21B2F646600CB92FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wiwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiwo.app/wiwo";
+			};
+			name = Debug;
+		};
+		BA717DC31B2F646600CB92FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wiwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiwo.app/wiwo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA717D931B2F646600CB92FF /* Build configuration list for PBXProject "wiwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA717DBC1B2F646600CB92FF /* Debug */,
+				BA717DBD1B2F646600CB92FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA717DBE1B2F646600CB92FF /* Build configuration list for PBXNativeTarget "wiwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA717DBF1B2F646600CB92FF /* Debug */,
+				BA717DC01B2F646600CB92FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA717DC11B2F646600CB92FF /* Build configuration list for PBXNativeTarget "wiwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA717DC21B2F646600CB92FF /* Debug */,
+				BA717DC31B2F646600CB92FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA717D901B2F646600CB92FF /* Project object */;
+}
